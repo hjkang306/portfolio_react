@@ -100,16 +100,16 @@
     transform: scale(0.9);
 }
 .php__section .figure1 .figureImg {
-    background-image: url(./assets/css/img/php01-min.jpg);
+    background-image: url(../img/php01-min.jpg);
 }
 .php__section .figure3 .figureImg {
-    background-image: url(./assets/css/img/php02-min.jpg);
+    background-image: url(../img/php02-min.jpg);
 }
 .php__section .figure6 .figureImg {
-    background-image: url(./assets/css/img/php03-min.jpg);
+    background-image: url(../img/php03-min.jpg);
 }
 .php__section .figure7 .figureImg {
-    background-image: url(./assets/css/img/php04-min.jpg);
+    background-image: url(../img/php04-min.jpg);
 }
 .php__section .figure1 {
     width: 740px;
