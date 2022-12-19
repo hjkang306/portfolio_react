@@ -26,6 +26,8 @@ import imagesLoader from "./utils/imagesLoader";
 import lenis from "./utils/lenis";
 import navigation from "./utils/navigation";
 import gsapScroll from "./utils/gsapScroll";
+import horizon from "./utils/horizon";
+import colorChage from "./utils/colorChage";
 
 function App() {
   useEffect(() => {
@@ -33,10 +35,12 @@ function App() {
     lenis();
     navigation();
     gsapScroll();
+    horizon();
+    colorChage();
   }, []);
 
   return (
-    <>
+    <div className="body fixed">
       <SkipMenu />
       <Progress />
       <Notice />
@@ -58,7 +62,7 @@ function App() {
         <Contact />
         <ContactAddress />
       </Footer>
-    </>
+    </div>
   );
 }
 

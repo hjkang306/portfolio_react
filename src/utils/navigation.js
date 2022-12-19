@@ -1,5 +1,3 @@
-import React from "react";
-
 const navigation = () => {
   let scrollTop = 0;
   const sections = document.querySelectorAll("section");

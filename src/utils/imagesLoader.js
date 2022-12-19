@@ -1,9 +1,14 @@
-import React from "react";
 import gsap from "gsap";
 import imagesLoaded from "imagesloaded";
 import $ from "jquery";
 
 const imagesLoader = () => {
+    window.onload = function(){
+        setTimeout(function(){
+            window.scrollTo(0,0);
+        }, 100);
+    }
+
     function imagesProgress(){
         let $container = $("#progress"),
             $notice = $(".notice"),
@@ -27,12 +32,12 @@ const imagesLoader = () => {
     
             if(current >= 100){
                 clearInterval(progressTimer);
-                $container.animate({opacity: '0'},500,'easeInOutQuint');
-                $notice.animate({opacity: '1'},1500,'easeInOutQuint');
+                $container.animate({opacity: '0'},500);
+                $notice.animate({opacity: '1'},500);
                 $(".notice__close").click(() => {
                     $notice.css("pointer-events", "none");
                     $("#main").css("opacity", "1");
-                    $notice.animate({opacity: '0'},500,'easeInOutQuint');
+                    $notice.animate({opacity: '0'});
     
                     // home 인트로 gsap 애니메이션
                     const homeFigure = gsap.utils.toArray("#home .figure");
@@ -112,10 +117,10 @@ const imagesLoader = () => {
     
                     //인트로가 끝난 후 body fixed 해제 
                     const fixedRemove = setInterval(() => {
-                        if($("#header").css("opacity") == 1){
+                        if($("#header").css("opacity") === 1){
                             setTimeout(() => {
                                 clearInterval(fixedRemove);
-                                document.querySelector("body").classList.remove("fixed");
+                                document.querySelector(".body").classList.remove("fixed");
                             }, 1000);
                         }
                     });
