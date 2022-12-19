@@ -1,31 +1,44 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 import SkipMenu from "./components/section/SkipMenu";
-// import Progress from './components/section/Progress';
-import Notice from './components/section/Notice'
+import Progress from './components/section/Progress';
+import Notice from "./components/section/Notice";
 import Header from "./components/layout/Header";
 import Main from "./components/layout/Main";
-import Home from './components/section/Home';
+import Home from "./components/section/Home";
 // about
-import About from './components/section/About';
-import AboutTitle from './components/section/about/AboutTitle';
-import AboutMe01 from './components/section/about/AboutMe01';
-import AboutMe02 from './components/section/about/AboutMe02';
+import About from "./components/section/About";
+import AboutTitle from "./components/section/about/AboutTitle";
+import AboutMe01 from "./components/section/about/AboutMe01";
+import AboutMe02 from "./components/section/about/AboutMe02";
 
-import Effect from './components/section/Effect';
-import ReactSection from './components/section/ReactSection';
-import VueSection from './components/section/VueSection';
-import PhpSection from './components/section/PhpSection';
+import Effect from "./components/section/Effect";
+import ReactSection from "./components/section/ReactSection";
+import VueSection from "./components/section/VueSection";
+import PhpSection from "./components/section/PhpSection";
 // footer
 import Footer from "./components/layout/Footer";
-import Contact from './components/section/contact/Contact';
-import ContactAddress from './components/section/contact/ContactAddress';
+import Contact from "./components/section/contact/Contact";
+import ContactAddress from "./components/section/contact/ContactAddress";
+
+// js
+import imagesLoader from "./utils/imagesLoader";
+import lenis from "./utils/lenis";
+import navigation from "./utils/navigation";
+import gsapScroll from "./utils/gsapScroll";
 
 function App() {
+  useEffect(() => {
+    imagesLoader();
+    lenis();
+    navigation();
+    gsapScroll();
+  }, []);
+
   return (
     <>
       <SkipMenu />
-      {/* <Progress /> */}
+      <Progress />
       <Notice />
 
       <Header />
@@ -49,4 +62,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
