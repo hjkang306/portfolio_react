@@ -96,6 +96,11 @@ const colorChage = () => {
             colorMenu[5].classList.add("active");
             colorChage("var(--pc-p)");
         break;
+        default :
+            tagColor = hexColor[4];
+            ticketColor = hexColor2[4];
+            colorMenu[4].classList.add("active");
+            colorChage("var(--pc-b)");
     }
   }
 
