@@ -28,6 +28,7 @@ import navigation from "./utils/navigation";
 import gsapScroll from "./utils/gsapScroll";
 import horizon from "./utils/horizon";
 import colorChage from "./utils/colorChage";
+import drag from "./utils/drag";
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
     gsapScroll();
     horizon();
     colorChage();
+    drag();
   }, []);
 
   return (
