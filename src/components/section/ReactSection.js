@@ -18,7 +18,7 @@ function ReactSection() {
             <div className="figure figure1 right">
               <div className="figureImg"></div>
               <a
-                href="https://react-api-333.netlify.app/movie"
+                href="https://react-api-333.netlify.app"
                 className="page__btn"
               >
                 page
@@ -34,7 +34,7 @@ function ReactSection() {
             <div className="figure figure3 left">
               <div className="figureImg"></div>
               <a
-                href="https://react-api-333.netlify.app/unsplash"
+                href="https://react-api-333.netlify.app"
                 className="page__btn"
               >
                 page
@@ -51,7 +51,7 @@ function ReactSection() {
             <div className="figure figure6 right">
               <div className="figureImg"></div>
               <a
-                href="https://react-api-333.netlify.app/youtube"
+                href="https://react-api-333.netlify.app"
                 className="page__btn"
               >
                 page
@@ -66,7 +66,7 @@ function ReactSection() {
             <div className="figure figure7 left">
               <div className="figureImg"></div>
               <a
-                href="https://react-api-333.netlify.app/about"
+                href="https://react-api-333.netlify.app"
                 className="page__btn"
               >
                 page

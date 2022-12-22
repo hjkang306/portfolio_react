@@ -17,7 +17,7 @@ function VueSection() {
           <div className="figure__inner">
             <div className="figure figure1 right">
               <div className="figureImg"></div>
-              <a href="https://vue-api333.web.app/movie" className="page__btn">
+              <a href="https://vue-api333.web.app" className="page__btn">
                 page
               </a>
               <a
@@ -31,7 +31,7 @@ function VueSection() {
             <div className="figure figure3 left">
               <div className="figureImg"></div>
               <a
-                href="https://vue-api333.web.app/unsplash"
+                href="https://vue-api333.web.app"
                 className="page__btn"
               >
                 page
@@ -48,7 +48,7 @@ function VueSection() {
             <div className="figure figure6 right">
               <div className="figureImg"></div>
               <a
-                href="https://vue-api333.web.app/youtube"
+                href="https://vue-api333.web.app"
                 className="page__btn"
               >
                 page
@@ -62,7 +62,7 @@ function VueSection() {
             </div>
             <div className="figure figure7 left">
               <div className="figureImg"></div>
-              <a href="https://vue-api333.web.app/about" className="page__btn">
+              <a href="https://vue-api333.web.app" className="page__btn">
                 page
               </a>
               <a
