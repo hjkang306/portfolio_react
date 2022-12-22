@@ -1,8 +1,9 @@
-import $ from "jquery";
-import 'jquery-ui'; 
+import gsap from "gsap";
+import Draggable from "gsap/Draggable";
 
 const drag = () => {
-    $(".drag").draggable({ opacity: 0.8 });
+    gsap.registerPlugin(Draggable);
+    Draggable.create(".drag", {type:"x,y", edgeResistance:0.65});
 }
 
 export default drag
