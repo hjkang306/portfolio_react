@@ -75,7 +75,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/searchEffect05.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect01.jpg" alt="코딩 이미지01" />
             <div className="effect__btn">Go !</div>
@@ -134,7 +135,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/quizEffect05.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect02.jpg" alt="코딩 이미지02" />
             <div className="effect__btn">Go !</div>
@@ -193,7 +195,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/mouseEffect01.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect03.jpg" alt="코딩 이미지03" />
             <div className="effect__btn">Go !</div>
@@ -252,7 +255,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/sliderEffect01.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect04.jpg" alt="코딩 이미지04" />
             <div className="effect__btn">Go !</div>
@@ -311,7 +315,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/parallaxEffect01.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect05.jpg" alt="코딩 이미지05" />
             <div className="effect__btn">Go !</div>
@@ -370,7 +375,8 @@ function Effect() {
           <summary className="effect__img__tit">javascript</summary>
           <a
             href="http://hjkang306.dothome.co.kr/javascript/effect/gameEffect01.html"
-            target="_black"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="assets/img/effect06.jpg" alt="코딩 이미지06" />
             <div className="effect__btn">Go !</div>

@@ -11,6 +11,7 @@
   display: flex;
   align-items: top;
   justify-content: space-between;
+  position: relative;
 }
 .details__inner {
   width: 33%;
