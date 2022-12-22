@@ -25,11 +25,11 @@ function ContactAddress() {
         </li>
         <li>
           <div className="contact__tag__tit">Blog</div>
-          <a href="hjkang306.tistory.com">hjkang306.tistory.com</a>
+          <a href="http://hjkang306.tistory.com">hjkang306.tistory.com</a>
         </li>
         <li>
           <div className="contact__tag__tit">Github</div>
-          <a href="github.com/hjkang306">github.com/hjkang306</a>
+          <a href="http://github.com/hjkang306">github.com/hjkang306</a>
         </li>
       </ul>
     </div>
